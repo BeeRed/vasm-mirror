@@ -1,0 +1,6 @@
+# SYNTAX-MODULE
+std
+madmac
+mot
+oldstyle
+test

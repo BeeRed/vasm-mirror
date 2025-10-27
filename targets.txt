@@ -1,0 +1,3 @@
+# CPU	SYNTAX-MODULE
+6502	oldstyle
+6800	oldstyle
