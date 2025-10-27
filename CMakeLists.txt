@@ -19,6 +19,8 @@ set(vasm_sources
     supp.c
     dwarf.c
     osdep.c
+    listing.c
+    source.c
     cpus/${VASM_CPU}/cpu.c
     syntax/${VASM_SYNTAX}/syntax.c
     output_test.c
@@ -30,6 +32,13 @@ set(vasm_sources
     output_tos.c
     output_xfile.c
     output_srec.c
+    output_cdef.c
+    output_gst.c
+    output_hans.c
+    output_ihex.c
+    output_o65.c
+    output_pap.c
+    output_woz.c
     )
 set(vasm_exe vasm${VASM_CPU}_${VASM_SYNTAX})
 add_executable(${vasm_exe} ${vasm_sources})
